@@ -1,0 +1,24 @@
+{
+  "name": "notion-api-test",
+  "version": "0.0.1",
+  "description": "Package for testing Notion API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artificial-lua/Notion-API-Test.git"
+  },
+  "author": "artificialluamail@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artificial-lua/Notion-API-Test/issues"
+  },
+  "homepage": "https://github.com/artificial-lua/Notion-API-Test#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.2.2"
+  },
+  "type": "module"
+}
