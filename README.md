@@ -5,7 +5,7 @@
 npm install # You need install package first.
 ```
 
-### Edit config.json file
+### Make config.json file
 ```
 {
     "notion" :{
