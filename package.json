@@ -4,10 +4,11 @@
   "description": "Package for testing Notion API",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch ./ ./index.js",
-    "start": "pm2 start index.js --watch --name \"notion-api-test\"",
+    "js-dev": "nodemon --watch ./ ./index.js",
+    "js-start": "pm2 start index.js --watch --name \"notion-api-test\"",
     "ts-dev": "nodemon --watch ./ ./index.ts",
-    "ts-start": "pm2 start index.ts --watch --name \"notion-api-test\""
+    "ts-start": "pm2 start index.ts --watch --name \"notion-api-test\"",
+    "build": "tsc --skipLibCheck"
   },
   "repository": {
     "type": "git",
